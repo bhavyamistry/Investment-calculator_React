@@ -43,6 +43,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 1.5rem;
+  margin: 2rem auto;
 }
 
 #user-input label {
@@ -71,6 +72,12 @@ body {
   table-layout: fixed;
   border-spacing: 1rem;
   text-align: right;
+}
+
+#result table {
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 1rem;
 }
 
 #result thead {
